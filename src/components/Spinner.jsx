@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Spinner.css';
-import {NextSvg, PreviousSvg} from "../icons/NextIcon";
+import {NextSvg, PreviousSvg} from "../icons/Icon";
 
 const Spinner = () => {
     const [currentImage, setCurrentImage] = useState(18); // сайт начинается с 18-ой картинки
